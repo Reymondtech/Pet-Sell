@@ -1,0 +1,55 @@
+/* BUY BUTTON STYLING */
+.buy-button {
+    background-color: #ff914d; /* A warm, inviting color */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    /*font-size: 16px;*/
+    cursor: pointer;
+    border-radius: none;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #e76f2e; /* A slightly darker shade for hover effect */
+}
+
+/* MODAL (Popup) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    /*overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px; /* Could be more or less, depending on screen size */
+    text-align: center;
+}
+
+.modal-content button {
+    margin-top: 20px;
+    background-color: #ff914d; /* Same warm color as the buy button */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.close {
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+}

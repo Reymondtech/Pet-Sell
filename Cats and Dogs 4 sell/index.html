@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovely Pets Shop</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+    <head>
+        <h1>🐾 Welcome to Lovely Pets Shop! 🐾 </h1>
+        <nav>
+        
+                <li><a href="#pets">Pets</a></li>
+                <li><a href="#about">About Us</a></li>
+                <a href="#" id="contactBtn">Contact</a></li>
+                <span class="cart">
+                    <a href="#cart">🛒 Cart:</a>
+                    <span id="cartCount">0</span>
+                </span>
+            
+        </nav>
+    </head>
+
+<section id="pets" class="pets-container">
+    <!-- Pets will be dynamically added here -->
+     <div class="pet-card">
+        <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131">
+        <h3>Snowy (cat)</h3>
+        <p>Age: 2 years</p>
+        <p>Friendly and playful</p>
+        <p class="price">Price: $100</p>
+        <button class="buy-btn">Buy</button>
+
+     </div>
+     <div class="pet-card">
+         <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16">
+        <h3>Buddy (dog)</h3>
+        <p>Age: 3 years</p>
+        <p>Loyal and energetic</p>
+        <p class="price">Price: $150</p>
+        <button class="buy-btn">Buy</button>
+
+     </div>
+        <div class="pet-card">
+            <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783">
+            <h3>Charlie (dog)</h3>
+            <p>Age: 1 year</p>
+            <p>Gentle and cuddly</p>
+            <p class="price">Price: $50</p>
+            <button class="buy-btn">Buy</button>
+        </div>
+
+</section>
+<section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>At Lovely Pets Shop, we are passionate about connecting loving pet owners with their perfect furry companions. Our mission is to provide a safe and caring environment for pets while offering exceptional customer service to our clients. We believe that every pet deserves a loving home, and we strive to make the adoption process as smooth and enjoyable as possible.</p>
+    <p>Our team is dedicated to ensuring that each pet in our care receives the attention and love they deserve. We work closely with local shelters and breeders to find the best matches for our customers. Whether you're looking for a playful puppy, a cuddly kitten, or a gentle rabbit, we have a variety of pets to choose from. We also offer resources and support to help you care for your new furry friend, including tips on training, nutrition, and health care. Thank you for choosing Lovely Pets Shop, where we believe that every pet deserves a loving home!</p>
+</section>
+<footer>
+    <p>Freising - Landshuter Str. 7 </p>
+    <p>Phone: +49 123 456 7890</p>
+    <p>Email: info@lovely-pets-shop.com</p>
+    <p>&copy; 2026 Lovely Pets Shop. All rights reserved.</p>
+</footer>
+<div class="model" id="contactModal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label> 
+            <input type="text" placeholder="Your Name" required>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Your Email" required>
+            <label for="message">Message:</label>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</div>
+<script src="Script.js"></script>
+</body>
+</html>

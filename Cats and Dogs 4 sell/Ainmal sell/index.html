@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lovely Pets Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🐾 Lovely Pets</div>
+    <nav>
+        <a href="#pets">Pets</a>
+        <a href="#about">About</a>
+        <a href="#" id="contactBtn">Contact</a>
+        <span class="cart">🛒 <span id="cartCount">0</span></span>
+        <button id="darkModeToggle">🌙</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Find Your Perfect Companion</h1>
+    <p>Healthy & Friendly Cats and Dogs Waiting for a Loving Home</p>
+</section>
+
+<section id="pets" class="pets-container">
+
+    <!-- Snowy -->
+    <div class="pet-card">
+        <a href="snowy.html">
+            <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131">
+        </a>
+        <h3>Snowy</h3>
+        <p>🐱 2 Years</p>
+        <p>Friendly & loves children.</p>
+        <div class="bottom">
+            <span class="price">€350</span>
+            <button class="buy-btn">Buy</button>
+        </div>
+    </div>
+
+    <!-- Buddy -->
+    <div class="pet-card">
+        <a href="buddy.html">
+            <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16">
+        </a>
+        <h3>Buddy</h3>
+        <p>🐶 3 Years</p>
+        <p>Loyal and energetic.</p>
+        <div class="bottom">
+            <span class="price">€500</span>
+            <button class="buy-btn">Buy</button>
+        </div>
+    </div>
+
+    <!-- Milo -->
+    <div class="pet-card">
+        <a href="milo.html">
+            <img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8">
+        </a>
+        <h3>Milo</h3>
+        <p>🐶 1 Year</p>
+        <p>Calm and affectionate.</p>
+        <div class="bottom">
+            <span class="price">€300</span>
+            <button class="buy-btn">Buy</button>
+        </div>
+    </div>
+
+    <!-- Rocky -->
+    <div class="pet-card">
+        <a href="rocky.html">
+            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1">
+        </a>
+        <h3>Rocky</h3>
+        <p>🐶 4 Years</p>
+        <p>Protective and playful.</p>
+        <div class="bottom">
+            <span class="price">€450</span>
+            <button class="buy-btn">Buy</button>
+        </div>
+    </div>
+
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        We are located in Freising, Landshuter Str. 7.<br>
+        <h3>Our Mission</h3>
+        Is to help pets find loving families.<br>
+        We provide a safe and caring environment for all our pets.<br>
+        We ensure all pets are healthy, vaccinated, and ready for adoption.<br>
+        <i>We are the best pet shop in the whole world.</i>
+    </p>
+</section>
+<!-- CEO SECTION -->
+<section class="ceo-section">
+    <h2>Meet Our Leadership</h2>
+
+    <div class="ceo-container">
+
+        <div class="ceo-card">
+            <img src="tobias.jpg" alt="Tobias CEO">
+            <h3>Tobias</h3>
+            <p>Chief Executive Officer</p>
+        </div>
+
+        <div class="ceo-card">
+            <img src="reymond.jpg" alt="Reymond CEO">
+            <h3>Reymond</h3>
+            <p>Chief Executive Officer</p>
+        </div>
+
+    </div>
+</section>
+
+
+<footer>
+    <div>
+        <h4>Contact</h4>
+        <p>info@lovelypets.de</p>
+        <p>+49 123 456789</p>
+    </div>
+    <div>
+        <h4>Location</h4>
+        <p>Freising</p>
+        <p>Landshuter Str. 7</p>
+    </div>
+    <div>
+        <h4>Follow Us</h4>
+        <p>Facebook | Instagram | Twitter</p>
+    </div>
+    <p class="copyright">© 2026 Lovely Pets Shop</p>
+</footer>
+
+<!-- CONTACT MODAL -->
+<div class="modal" id="contactModal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
